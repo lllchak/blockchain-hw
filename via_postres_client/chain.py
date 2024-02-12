@@ -13,8 +13,12 @@ TBlock = Dict[str, Any]
 
 class TBlockData(NamedTuple):
     username: str = ""
+    sex: str = False
     password: str = ""
     email: str = ""
+    licence_id: str = ""
+    bank_account: float = 0.
+    mined: bool = False
 
 
 class TBlockchain:
